@@ -12,7 +12,7 @@
         ISO8583 protocol client and server Netty connectors.
     </description>
 
-    <url>https://github.com/kpavlov/jreactive-8583</url>
+    <url>https://github.com/sathishvp2495/jreactive-8583</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,7 +23,7 @@
         <!-- Versions -->
         <j8583.version>1.12.0</j8583.version>
         <junit.version>4.12</junit.version>
-        <mockito.version>2.15.0</mockito.version>
+       <!--  <mockito.version>2.15.0</mockito.version> -->
         <netty.version>[4.1.20.Final,4.2)</netty.version>
         <slf4j.version>[1.7.25,1.7.999)</slf4j.version>
         <spring.version>4.3.14.RELEASE</spring.version>
@@ -31,7 +31,7 @@
 
     <issueManagement>
         <system>GITHUB</system>
-        <url>https://github.com/kpavlov/jreactive-8583/issues</url>
+        <url>https://github.com/sathishvp2495/jreactive-8583/issues</url>
     </issueManagement>
 
     <distributionManagement>
@@ -46,9 +46,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:kpavlov/jreactive-8583.git</connection>
-        <developerConnection>scm:git:git@github.com:kpavlov/jreactive-8583.git</developerConnection>
-        <url>https://github.com/kpavlov/jreactive-8583</url>
+        <connection>scm:git:git@github.com:sathishvp2495/jreactive-8583.git</connection>
+        <developerConnection>scm:git:git@github.com:sathishvp2495/jreactive-8583.git</developerConnection>
+        <url>https://github.com/sathishvp2495/jreactive-8583</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -98,12 +98,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>${mockito.version}</version>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
